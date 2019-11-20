@@ -601,6 +601,7 @@ padding-bottom: 100px;
 
 #search-btn {
 background:#0099ff;
+width: 11%;
 color:white;
 margin:0;
 padding:15px 20px;
@@ -616,7 +617,7 @@ background:white;
 padding:15px ;
 border:none;
   margin:0;
-width:420px;
+width:85%;
  }
 
  .opacity{
