@@ -7,6 +7,7 @@
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
     width:150px;
+    font-size: 40px;
 }
 .circle2 {
     background-color:#fff;
@@ -17,6 +18,24 @@
     -webkit-border-radius:50%;
     width:150px;
 }
+
+.social {
+	color: white ;
+}
+
+.circle3{
+
+ background-color:#3d4e57;
+    border:2px solid white;    
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    padding: 5px 5px;
+ 
+}
+
+
+
 .special {
 	background-color: #3d4e57;
 	color: white;
@@ -33,7 +52,12 @@
 body
 {
 	color: #3d4e57;
+	font-family: 'Rubik', sans-serif;
 }
+p {
+	font-family: 'Quicksand', sans-serif;
+}
+
 
 .jumbotron{
 	color: white ;
