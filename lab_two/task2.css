@@ -18,6 +18,9 @@ body {
 
 }
 /*.......................................................................*/
+.uppercase{
+	text-transform: uppercase;
+}
 .capital{
 	text-transform: capitalize;
 }
@@ -194,7 +197,7 @@ border: none;
 	text-transform: capitalize;
 	background-color: #fe3a49;
 	color: white;
-	 padding: 15px 30px;
+	 padding: 13px 22px;
 	  margin: 35px 0 0 0 ;
 	 font-family: WorkSans-semiBold;
 	 font-size: 14px;
@@ -241,12 +244,13 @@ border: none;
 
 .company-img
 {
-	width: 45%;
+	width: 28%;
 	vertical-align: top;
 }
 .company-info{
 	width: 40%;
 	vertical-align: top;
+	padding-left: 78px;
 }
 
 .company-head{
@@ -255,12 +259,11 @@ border: none;
 .company-section{
 	margin-top: 200px;
 	margin-bottom: 170px;
-	border: 1px red solid ;
+	/*border: 1px red solid ;*/
 }
 
 .company-note {
 	color: red;
-	text-transform: uppercase;
 	font-family: WorkSans-semiBold;
 	font-size: 16px;
 	margin-top: 20px
@@ -271,12 +274,13 @@ border: none;
 }
 /*..........................................................*/
 .creative-section{
-	border:red 1px solid;
-	background-image: url("img/Bg-flip.png");
+	/*border:red 1px solid;*/
+	/*background-image: url("img/Bg-flip.png");*/
 	background-repeat: no-repeat;
 	background-position: left;
 	width: 100%;
-	height: 133vh;
+	margin-bottom: 100px;
+	/*height: 133vh;*/
 
 
 }
@@ -286,12 +290,12 @@ border: none;
 	padding-right: 25px;
 	padding-left: 0px;
 	padding-bottom: 26px;
-	border: 1px red solid;
+	/*border: 1px red solid;*/
 	vertical-align: top; 
 }
 
 .imgs{
-	height: 27.6%;
+	height: 30.6%;
 	width: 100%;
 }
 
@@ -320,9 +324,141 @@ img  {
 /*...........................................*/
 
 .check-part--sub-sub
-{
+{   margin-top: 40px;
 	width: 30%;
-	padding-right: 85px;
+	/*padding-right: 85px;*/
 	padding-left: 0px;
-	border: 1px red solid; 
+	/*border: 1px red solid; */
+}
+
+.check-border{
+	padding: 34px;
+	margin-right: 25px;
+	 box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	/*border: 1px green solid ;*/
+}
+
+.adventure-info{
+	margin: 30px 0;
+	
+}
+
+.icon-left
+{
+	text-align: right;
+}
+.adventure-head{
+	font-size: 14px;
+	 font-family: WorkSans-semiBold;
+
+
+}
+
+.date{
+	font-size: 12px;
+}
+.check-main-head{
+	margin:10px 0 40px 0; 
+}
+
+ .red-cell
+{
+	background-color: #fe3a49;
+	color: white;
+}
+
+.white-info{
+	color: white;
+}
+/*...........................*/
+.form-part--sup
+{
+	width: 45%;
+}
+
+.message{
+	width: 100%;
+
+}
+
+.contact-part{
+	margin-top: 110px;
+}
+
+.search-box
+{
+	    padding: 17px 104px 17px 17px;
+}
+
+.search-box-message
+{padding: 17px 0 77px 17px;
+    margin-top: 42px;
+    width: 97.5%;
+}
+input {
+	background-color: #f5fafe;
+	/*font-family: WorkSans-semiBold;*/
+	border: none;
+	color: #2f3e89;
+	font-weight: bold;
+}
+
+.contact-part-btn{
+	margin: 80px 0;
+	text-align: center;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #2f3e89;
+  font-family: WorkSans-semiBold;
+}
+
+.footer-icons{
+	padding: 0 70px;
+
+
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+
+}
+
+.menu-mid{
+	 text-align: center;
+	 padding: 30px 0;
+/*	 margin-bottom: 70px;*/
+	 font-size: 14px;
+
+}
+
+.navbar-link{
+	padding-right: 20px;
+	font-weight: bold;
+}
+
+.footer-section{
+	background-color:#2f3e89;
+	color: white;
+}
+
+.doop
+{
+	font-weight: bold;
+
+}
+
+.footer-head{
+	color: #fe3a49;
+}
+
+.footer-section-wrapper{
+	width: 40%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 50px;
+}
+.section-date {
+	color: white;
 }
